@@ -1,0 +1,37 @@
+<migration urlid="http://usmtgui.com/ExcludeDrives_D_to_Z">
+
+<!-- This section will exclude anything on D,E,F to Z drive if un-commented -->
+      <component type="Documents" context="System">
+        <displayName>Exclude Extraneous Drives</displayName>
+        <role role="Data">
+        <rules>
+        <unconditionalExclude>
+          <objectSet>
+			<pattern type="File">d:\* [*]</pattern>
+			<pattern type="File">e:\* [*]</pattern>
+			<pattern type="File">f:\* [*]</pattern>
+			<pattern type="File">g:\* [*]</pattern>
+			<pattern type="File">h:\* [*]</pattern>
+			<pattern type="File">i:\* [*]</pattern>
+			<pattern type="File">j:\* [*]</pattern>
+			<pattern type="File">k:\* [*]</pattern>
+			<pattern type="File">l:\* [*]</pattern>
+			<pattern type="File">m:\* [*]</pattern>
+			<pattern type="File">n:\* [*]</pattern>
+			<pattern type="File">o:\* [*]</pattern>
+			<pattern type="File">p:\* [*]</pattern>
+			<pattern type="File">q:\* [*]</pattern>
+			<pattern type="File">r:\* [*]</pattern>
+			<pattern type="File">s:\* [*]</pattern>
+			<pattern type="File">t:\* [*]</pattern>
+			<pattern type="File">u:\* [*]</pattern>
+			<pattern type="File">v:\* [*]</pattern>
+			<pattern type="File">x:\* [*]</pattern>
+			<pattern type="File">y:\* [*]</pattern>
+			<pattern type="File">z:\* [*]</pattern>
+		   </objectSet>
+          </unconditionalExclude>
+      </rules>
+     </role>
+    </component>
+</migration>
